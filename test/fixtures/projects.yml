@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  proj_title: MyString
+  proj_desc: MyText
+
+two:
+  proj_title: MyString
+  proj_desc: MyText

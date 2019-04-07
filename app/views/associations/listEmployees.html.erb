@@ -1,0 +1,22 @@
+<h2>Employees List</h2>
+
+<% if false %>
+<table width="50%" cellspacing=0 celpadding=0>
+	<tr>
+		<td>Name</td>
+		<td>Code</td>
+		<td>Type</td>
+		<td>Salary</td>
+		<td>Project</td>
+	</tr>
+	<% @emp.each do |emp| %>
+	<tr>
+		<td><%=emp.emp_name%></td>
+		<td><%=emp.emp_code%></td>
+		<td><%=emp.emp_type%></td>
+		<td><%=emp.emp_pay%></td>
+		<td><%=emp.project_id%></td>
+	</tr>	
+	<% end %>
+</table>
+<% end %>
